@@ -1,13 +1,14 @@
 ﻿using System;
 
-namespace CSharpLearningExercises 
-{   
+using CSharpLearningExercises.Exercises;
+
+namespace CSharpLearningExercises
+{
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.ReadLine();
+            GreetingApp.Run();
         }
     }
 }
