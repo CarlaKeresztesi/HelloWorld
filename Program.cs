@@ -9,6 +9,9 @@ namespace HelloWorld
         static void Main(string[] args)
         {
             AgeCalculator.Run();
+
+            Console.WriteLine("Press any key to exit...");
+            Console.ReadKey();
         }
     }
 }

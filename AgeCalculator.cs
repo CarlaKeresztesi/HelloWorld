@@ -14,8 +14,7 @@ namespace HelloWorld
 
             Console.WriteLine($"You are {age} years old.");
 
-            Console.WriteLine("Press any key to exit...");
-            Console.ReadKey();
+            
         }
     }
 }
