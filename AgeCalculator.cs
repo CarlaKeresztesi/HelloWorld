@@ -13,6 +13,9 @@ namespace HelloWorld
             int age = currentYear - birthYear;
 
             Console.WriteLine($"You are {age} years old.");
+
+            Console.WriteLine("Press any key to exit...");
+            Console.ReadKey();
         }
     }
 }
