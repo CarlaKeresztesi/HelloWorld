@@ -8,6 +8,8 @@ namespace HelloWorld
         public static void Run()
         {
             Console.WriteLine("Hello! Enter 5 numbers:");
+            int[] number = new int[5];
+
             for (int i = 0; i < number.Length; i++)
             {
                 number[i] = int.Parse(Console.ReadLine());
