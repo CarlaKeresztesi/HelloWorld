@@ -8,7 +8,7 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            MultiplicationTableGenerator.Run();
+            FindLargestNumber.Run();
 
             Console.WriteLine("Press any key to exit...");
             Console.ReadKey();
