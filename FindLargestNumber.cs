@@ -12,6 +12,7 @@ namespace HelloWorld
 
             for (int i = 0; i < number.Length; i++)
             {
+                Console.Write($"Enter number {i + 1}: ");
                 number[i] = int.Parse(Console.ReadLine());
             }
             int largest = number[0];
