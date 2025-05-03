@@ -4,7 +4,7 @@ namespace HelloWorld
 { //Challenge: Print numbers 1 to 50.
 		//For multiples of 3, print "Fizz"
 		//For multiples of 5, print "Buzz";
-		//For both 3 and 5, print "FizzBuzz".
+		//For multiples of both 3 and 5, print "FizzBuzz".
 
 	public class FizzBuzz
 	{
