@@ -39,8 +39,11 @@ namespace HelloWorld
             int one = 1;
             int ten = 10;
 
-            dbAnswer = one / ten;
-            Console.WriteLine($"float answer should be 0.1, but is {dbAnswer}");
+            //dbAnswer = one / ten;
+            dbAnswer = (double)one / (double)ten; //Casting each integer variable as a floating point data type.
+            Console.WriteLine($"double answer should be 0.1, but is {dbAnswer}"); //Integer arithmetic only returns integer values, ignoring or discarding any fractional part of the result.
+
+            
 
 
         }
