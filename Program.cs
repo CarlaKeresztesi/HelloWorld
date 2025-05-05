@@ -8,11 +8,11 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            IntegerDataTypes.Run();
+            FloatingPointNumbers.Run();
 
             Console.WriteLine("Press any key to exit...");
             Console.ReadKey();
-            Console.Out.Flush();
+            //Console.Out.Flush();//Ensures all output is written in console
         }
     }
 }
