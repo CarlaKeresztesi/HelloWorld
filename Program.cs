@@ -12,7 +12,8 @@ namespace HelloWorld
 
             Console.WriteLine("Press any key to exit...");
             Console.ReadKey();
-            //Console.Out.Flush();//Ensures all output is written in console
+            Console.Out.Flush();//Ensures all output is written in console
+           
         }
     }
 }
