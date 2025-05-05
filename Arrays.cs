@@ -27,6 +27,8 @@ namespace HelloWorld
             arrayOfLetters[3] = cowColor[3];
             arrayOfLetters[4] = cowColor[4];
 
+            Console.WriteLine($"{arrayOfLetters[0]} {arrayOfLetters[1]} {arrayOfLetters[2]} {arrayOfLetters[3]} {arrayOfLetters[4]}");
+
         }
     }
 }
