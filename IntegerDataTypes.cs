@@ -23,10 +23,10 @@ namespace HelloWorld
             Console.WriteLine("regular's size is " + sizeof(int));
             Console.WriteLine("grande's size is " + sizeof(long));
 
-            grande = piccolo; // grande = 255
-            regular = (int)(piccolo + grande);
-            Console.WriteLine("regular = " + regular);
-            Console.Out.Flush(); //Ensures all output is written in console
+            //grande = piccolo; // grande = 255
+            //regular = (int)(piccolo + grande);
+            //Console.WriteLine("regular = " + regular);
+             
         }
     }
 }
