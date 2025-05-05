@@ -8,10 +8,11 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            RandomNumber.Run();
+            IntegerDataTypes.Run();
 
             Console.WriteLine("Press any key to exit...");
             Console.ReadKey();
+            Console.Out.Flush();
         }
     }
 }
