@@ -8,7 +8,7 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            Arrays.Run();
+            NullCoalescingOp.Run();
 
             Console.WriteLine("Press any key to exit...");
             Console.ReadKey();
